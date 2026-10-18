@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Midhun Biju — Full-Stack Developer. Scalable web systems, resilient backends, and practical digital experiences.">
+  <meta name="theme-color" content="#000000">
+  <title>Midhun Biju — Full-Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add('js')</script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpolygon points='12,2 22,20 2,20' fill='none' stroke='%238052ff' stroke-width='2.5' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <meta property="og:title" content="Midhun Biju — Full-Stack Developer">
+  <meta property="og:description" content="Scalable web systems, resilient backends, practical digital experiences.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <!-- Ambient background particle layer -->
+  <canvas id="ambient-canvas" aria-hidden="true"></canvas>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Midhun Biju Home">
+        <svg class="brand-glyph" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <defs>
+            <linearGradient id="dalaBrandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#8052ff" />
+              <stop offset="100%" stop-color="#15846e" />
+            </linearGradient>
+          </defs>
+          <polygon points="12,2 22,20 2,20" stroke="url(#dalaBrandGrad)" stroke-width="2.5" fill="none" stroke-linejoin="round" />
+          <polygon points="12,8 17,17 7,17" fill="url(#dalaBrandGrad)" opacity="0.75" />
+        </svg>
+        <span class="brand-text">MIDHUN BIJU</span>
+      </a>
+
+      <div class="nav-links" id="primary-navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#toolkit">Toolkit</a>
+        <a href="#background">Background</a>
+      </div>
+
+      <div class="nav-action">
+        <a class="button-pill" href="#contact">Get In Touch</a>
+        <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-navigation">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO SECTION -->
+    <section class="hero-section container" id="home">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="spark-label">Available for roles — Kerala, India</p>
+          <h1 class="display-headline">Building practical systems with precision.</h1>
+          <p class="body-ultra">
+            I am a full-stack developer with an MCA foundation, engineering resilient web architectures, role-based workflows, and intuitive digital interfaces on pure code.
+          </p>
+          <div class="hero-cta-group">
+            <a class="button-pill" href="#contact">Let's Connect</a>
+            <a class="ghost-link" href="#projects">Explore Work <span class="arrow">→</span></a>
+          </div>
+          <div class="hero-meta">
+            <span class="meta-label">CONNECT</span>
+            <a href="https://github.com/midhunbiju102003" target="_blank" rel="noreferrer" class="ghost-link">GitHub <span class="arrow">↗</span></a>
+            <a href="https://linkedin.com/in/midhun-biju" target="_blank" rel="noreferrer" class="ghost-link">LinkedIn <span class="arrow">↗</span></a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Constellation particle visualization">
+          <canvas id="constellation-canvas" width="600" height="600"></canvas>
+          <div class="visual-caption">
+            <span class="spark-dot"></span>
+            <span>Neural constellation — distributed intelligence</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true"><div class="marquee-track"><span>Python</span><span>Django</span><span>Flask</span><span>REST APIs</span><span>SQL</span><span>MongoDB</span><span>JavaScript</span><span>Tailwind CSS</span><span>Git</span><span>Twilio API</span><span>Python</span><span>Django</span><span>Flask</span><span>REST APIs</span><span>SQL</span><span>MongoDB</span><span>JavaScript</span><span>Tailwind CSS</span><span>Git</span><span>Twilio API</span></div></div>
+
+    <!-- 01 / ABOUT SECTION -->
+    <section class="content-section container" id="about">
+      <div class="two-column-block">
+        <div class="column-left">
+          <span class="section-label">01 / ABOUT</span>
+          <h2 class="section-headline">Developer by craft.<br>Problem-solver by nature.</h2>
+        </div>
+        <div class="column-right">
+          <p class="spark-label">Philosophy & Approach</p>
+          <p class="body-ultra">
+            My work combines robust backend foundations with clean user experiences. I focus on software that serves real human workflows — from medication schedules to verified campus admissions.
+          </p>
+          <p class="body-ultra">
+            Holding both MCA and BCA degrees, I believe great software is achieved through scale, thoughtful architecture, and stripping away unnecessary noise.
+          </p>
+
+          <div class="tenets-stack" data-stagger>
+            <div class="tenet-item">
+              <span class="tenet-index">01</span>
+              <div>
+                <h3 class="tenet-title">Full-Stack Thinking</h3>
+                <p class="body-ultra-small">Connecting database models, server logic, API boundaries, and responsive presentation seamlessly.</p>
+              </div>
+            </div>
+            <div class="tenet-item">
+              <span class="tenet-index">02</span>
+              <div>
+                <h3 class="tenet-title">Practical Systems</h3>
+                <p class="body-ultra-small">Building for real-world utility: role-based access, verification pipelines, and reliable communication integrations.</p>
+              </div>
+            </div>
+            <div class="tenet-item">
+              <span class="tenet-index">03</span>
+              <div>
+                <h3 class="tenet-title">Continuous Evolution</h3>
+                <p class="body-ultra-small">Pursuing clean code, performance efficiency, and modern engineering standards at every commit.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="link-wrapper" data-reveal>
+            <a class="accent-link" href="https://github.com/midhunbiju102003" target="_blank" rel="noreferrer">
+              Explore my repositories on GitHub <span class="arrow">→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 / SELECTED WORK -->
+    <section class="content-section container" id="projects">
+      <div class="section-header-row">
+        <div>
+          <span class="section-label">02 / SELECTED WORK</span>
+          <h2 class="section-headline">Projects with purpose.</h2>
+        </div>
+        <div class="filter-toolbar" role="group" aria-label="Filter project categories">
+          <button class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter-btn" data-filter="web" aria-pressed="false">Web Apps</button>
+          <button class="filter-btn" data-filter="research" aria-pressed="false">Research</button>
+        </div>
+      </div>
+
+      <div class="projects-list">
+        <!-- Project 01 -->
+        <article class="project-entry" data-reveal data-category="web">
+          <div class="project-columns">
+            <div class="project-meta-col">
+              <span class="project-num">01</span>
+              <span class="spark-label">Care Management System</span>
+              <span class="project-type-tag">Full-Stack Web App</span><svg class="project-art" viewBox="0 0 160 90" fill="none" stroke-width="1.5" aria-hidden="true"><rect x="12" y="30" width="60" height="28" rx="14" stroke="#8052ff"/><path d="M42 30v28" stroke="#8052ff"/><circle cx="108" cy="42" r="26" stroke="#ffb829"/><path d="M108 42V26M108 42l12 8" stroke="#ffb829"/><path d="M126 76l8 8 16-18" stroke="#15846e"/></svg>
+            </div>
+            <div class="project-details-col">
+              <h3 class="project-title">Remote Medicine Reminder & Tracker</h3>
+              <p class="body-ultra">
+                A dual-role care management application designed to bridge caregivers and patients. Enables doctors and family members to schedule precise medication regimens, while offering patients an accessible interface to confirm or log dosages.
+              </p>
+              <ul class="feature-list" data-stagger>
+                <li>Independent caregiver management portal and simplified patient logging views.</li>
+                <li>Medicine scheduling with automated dosage state tracking (taken, pending, missed).</li>
+                <li>Architected for automated SMS and email reminders via Twilio and SMTP.</li>
+              </ul>
+              <div class="tag-row">
+                <span class="pill-tag">Python</span>
+                <span class="pill-tag">Django / Flask</span>
+                <span class="pill-tag">SQLite</span>
+                <span class="pill-tag">Twilio API</span>
+                <span class="pill-tag">SMTP</span>
+              </div>
+              <div class="project-action-row">
+                <a class="accent-link" href="https://github.com/midhunbiju102003" target="_blank" rel="noreferrer">
+                  View Repository <span class="arrow">→</span>
+                </a>
+                <span class="project-status-note">Academic Capstone</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 02 -->
+        <article class="project-entry" data-reveal data-category="web">
+          <div class="project-columns">
+            <div class="project-meta-col">
+              <span class="project-num">02</span>
+              <span class="spark-label">Exam Access Workflow</span>
+              <span class="project-type-tag">Web Application</span><svg class="project-art" viewBox="0 0 90 90" fill="none" stroke-width="1.3" aria-hidden="true"><rect x="10" y="8" width="7" height="7" stroke="#8052ff"/><rect x="20" y="8" width="7" height="7" stroke="#8052ff"/><rect x="30" y="8" width="7" height="7" stroke="#8052ff"/><rect x="50" y="8" width="7" height="7" stroke="#8052ff"/><rect x="60" y="8" width="7" height="7" stroke="#8052ff"/><rect x="70" y="8" width="7" height="7" stroke="#8052ff"/><rect x="10" y="18" width="7" height="7" stroke="#8052ff"/><rect x="30" y="18" width="7" height="7" stroke="#8052ff"/><rect x="70" y="18" width="7" height="7" stroke="#8052ff"/><rect x="10" y="28" width="7" height="7" stroke="#8052ff"/><rect x="20" y="28" width="7" height="7" stroke="#8052ff"/><rect x="30" y="28" width="7" height="7" stroke="#8052ff"/><rect x="50" y="28" width="7" height="7" stroke="#8052ff"/><rect x="70" y="28" width="7" height="7" stroke="#8052ff"/><rect x="40" y="38" width="7" height="7" stroke="#ffb829"/><rect x="60" y="38" width="7" height="7" stroke="#8052ff"/><rect x="10" y="48" width="7" height="7" stroke="#8052ff"/><rect x="30" y="48" width="7" height="7" stroke="#8052ff"/><rect x="40" y="48" width="7" height="7" stroke="#8052ff"/><rect x="50" y="48" width="7" height="7" stroke="#8052ff"/><rect x="70" y="48" width="7" height="7" stroke="#8052ff"/><rect x="30" y="58" width="7" height="7" stroke="#8052ff"/><rect x="70" y="58" width="7" height="7" stroke="#8052ff"/><rect x="10" y="68" width="7" height="7" stroke="#8052ff"/><rect x="20" y="68" width="7" height="7" stroke="#8052ff"/><rect x="30" y="68" width="7" height="7" stroke="#8052ff"/><rect x="50" y="68" width="7" height="7" stroke="#8052ff"/><rect x="60" y="68" width="7" height="7" stroke="#8052ff"/><rect x="70" y="68" width="7" height="7" stroke="#8052ff"/><line class="scan" x1="4" x2="86" y1="6" y2="6" stroke="#ffb829" stroke-width="1.5"/></svg>
+            </div>
+            <div class="project-details-col">
+              <h3 class="project-title">QR Code-Based Hall Ticket Generation</h3>
+              <p class="body-ultra">
+                A streamlined institutional software concept for digital hall ticket generation and instant exam-gate verification. Replaces manual paper inspections with encrypted, dynamically generated QR passes scanned by authorized proctors.
+              </p>
+              <ul class="feature-list" data-stagger>
+                <li>Dynamic generation of secure hall ticket passes from student registry and timetable data.</li>
+                <li>Embedded QR code matrix holding cryptographically verified candidate identity tokens.</li>
+                <li>Rapid mobile scanning workflow for examination hall invigilators and administrators.</li>
+              </ul>
+              <div class="tag-row">
+                <span class="pill-tag">Python</span>
+                <span class="pill-tag">Web Systems</span>
+                <span class="pill-tag">QR Matrix</span>
+                <span class="pill-tag">Relational Database</span>
+              </div>
+              <div class="project-action-row">
+                <a class="accent-link" href="https://github.com/midhunbiju102003" target="_blank" rel="noreferrer">
+                  View Repository <span class="arrow">→</span>
+                </a>
+                <span class="project-status-note">Academic Project</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 03 -->
+        <article class="project-entry" data-reveal data-category="research">
+          <div class="project-columns">
+            <div class="project-meta-col">
+              <span class="project-num">03</span>
+              <span class="spark-label">Seminar Topic</span>
+              <span class="project-type-tag">Research & Visualization</span><svg class="project-art" viewBox="0 0 160 90" fill="none" stroke-width="1.3" aria-hidden="true"><ellipse cx="80" cy="45" rx="64" ry="36" stroke="#8052ff"/><ellipse cx="80" cy="45" rx="38" ry="18" stroke="#15846e"/><ellipse class="orbit" cx="80" cy="45" rx="51" ry="27" stroke="#ffb829" stroke-dasharray="3 5"/><circle cx="80" cy="45" r="3" fill="#ffb829" stroke="none"/></svg>
+            </div>
+            <div class="project-details-col">
+              <h3 class="project-title">Digital Twins for Fusion Power Plants</h3>
+              <p class="body-ultra">
+                Comprehensive technical research into next-generation industrial digital twin architectures. Explores real-time tokamak telemetry visualization, physics simulation integration, and 3D operational control using NVIDIA Omniverse and Universal Scene Description (USD).
+              </p>
+              <ul class="feature-list" data-stagger>
+                <li>High-fidelity system architecture for real-time sensor ingestion into 3D digital twins.</li>
+                <li>Exploration of OpenUSD schemas for complex multi-physics reactor components.</li>
+                <li>Operator visual telemetry paradigms for monitoring magnetic containment and plasma states.</li>
+              </ul>
+              <div class="tag-row">
+                <span class="pill-tag">NVIDIA Omniverse</span>
+                <span class="pill-tag">OpenUSD</span>
+                <span class="pill-tag">Python</span>
+                <span class="pill-tag">Digital Twins</span>
+                <span class="pill-tag">Simulation</span>
+              </div>
+              <div class="project-action-row">
+                <a class="accent-link" href="https://github.com/midhunbiju102003" target="_blank" rel="noreferrer">
+                  View Research Reference <span class="arrow">→</span>
+                </a>
+                <span class="project-status-note">Seminar Research</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="section-footer-cta" data-reveal>
+        <p class="body-ultra">Looking for more experiments, utilities, and code samples?</p>
+        <a class="accent-link" href="https://github.com/midhunbiju102003" target="_blank" rel="noreferrer">
+          Browse all GitHub repositories <span class="arrow">→</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- 03 / TOOLKIT -->
+    <section class="content-section container" id="toolkit">
+      <div class="two-column-block">
+        <div class="column-left">
+          <span class="section-label">03 / TOOLKIT</span>
+          <h2 class="section-headline">The technical stack.</h2>
+          <p class="body-ultra-small toolkit-intro">
+            A focused toolkit spanning backend engineering, data persistence, client-side rendering, and developer workflow.
+          </p>
+        </div>
+        <div class="column-right">
+          <div class="toolkit-grid" data-stagger>
+            <div class="toolkit-block">
+              <span class="spark-label">01 — Backend Engineering</span>
+              <h3 class="toolkit-title">Application Core</h3>
+              <p class="body-ultra-small">Server architecture, business logic, routing, role-based authorization, and RESTful API endpoints.</p>
+              <div class="tag-row">
+                <span class="pill-tag">Python</span>
+                <span class="pill-tag">Django</span>
+                <span class="pill-tag">Flask</span>
+                <span class="pill-tag">REST APIs</span>
+              </div>
+            </div>
+
+            <div class="toolkit-block">
+              <span class="spark-label">02 — Client Presentation</span>
+              <h3 class="toolkit-title">Frontend Interfaces</h3>
+              <p class="body-ultra-small">Responsive design, standards-compliant HTML5, modular CSS architecture, and performant vanilla JavaScript.</p>
+              <div class="tag-row">
+                <span class="pill-tag">JavaScript (ES6+)</span>
+                <span class="pill-tag">HTML5</span>
+                <span class="pill-tag">CSS3</span>
+                <span class="pill-tag">Tailwind CSS</span>
+                <span class="pill-tag">Bootstrap</span>
+              </div>
+            </div>
+
+            <div class="toolkit-block">
+              <span class="spark-label">03 — Data Systems</span>
+              <h3 class="toolkit-title">Storage & Querying</h3>
+              <p class="body-ultra-small">Relational schema design, normalization, query optimization, and document storage handling.</p>
+              <div class="tag-row">
+                <span class="pill-tag">SQLite</span>
+                <span class="pill-tag">MySQL</span>
+                <span class="pill-tag">SQL</span>
+                <span class="pill-tag">MongoDB</span>
+              </div>
+            </div>
+
+            <div class="toolkit-block">
+              <span class="spark-label">04 — Workflow & APIs</span>
+              <h3 class="toolkit-title">Integrations & Tools</h3>
+              <p class="body-ultra-small">Version control pipelines, developer tooling, communication APIs, and notification triggers.</p>
+              <div class="tag-row">
+                <span class="pill-tag">Git</span>
+                <span class="pill-tag">GitHub</span>
+                <span class="pill-tag">VS Code</span>
+                <span class="pill-tag">Twilio API</span>
+                <span class="pill-tag">SMTP</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 / BACKGROUND -->
+    <section class="content-section container" id="background">
+      <div class="two-column-block">
+        <div class="column-left">
+          <span class="section-label">04 / BACKGROUND</span>
+          <h2 class="section-headline">Academic roots & certifications.</h2>
+        </div>
+        <div class="column-right">
+          <div class="timeline-stack" data-stagger>
+            <div class="timeline-row">
+              <div class="timeline-date-col">
+                <span class="spark-label">2024 — 2026</span>
+              </div>
+              <div class="timeline-content-col">
+                <h3 class="timeline-degree">Master of Computer Applications (MCA)</h3>
+                <p class="timeline-school">Mangalam College of Engineering · Ettumanoor, Kerala</p>
+                <p class="body-ultra-small">Advanced software development, distributed systems, algorithms, and applied software engineering.</p>
+              </div>
+            </div>
+
+            <div class="timeline-row">
+              <div class="timeline-date-col">
+                <span class="spark-label">2021 — 2024</span>
+              </div>
+              <div class="timeline-content-col">
+                <h3 class="timeline-degree">Bachelor of Computer Applications (BCA)</h3>
+                <p class="timeline-school">Mar Augusthinose College · Ramapuram, Kerala</p>
+                <p class="body-ultra-small">Core computer science principles, object-oriented programming, relational databases, and web foundations.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="credentials-block" data-reveal>
+            <span class="spark-label">Professional Certifications</span>
+            <div class="cert-list" data-stagger>
+              <div class="cert-item">
+                <span class="cert-year">2026</span>
+                <div>
+                  <h3 class="cert-title">Artificial Intelligence</h3>
+                  <p class="cert-issuer">Alpha Innovation</p>
+                </div>
+              </div>
+              <div class="cert-item">
+                <span class="cert-year">2024</span>
+                <div>
+                  <h3 class="cert-title">Python — Full Stack Development</h3>
+                  <p class="cert-issuer">Facein Technologies Pvt. Ltd.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 / GET IN TOUCH -->
+    <section class="content-section container contact-section" id="contact">
+      <div class="two-column-block">
+        <div class="column-left">
+          <span class="section-label">05 / GET IN TOUCH</span>
+          <h2 class="display-headline contact-heading">Have a project<br>in mind<span class="spark-punct">?</span></h2>
+        </div>
+        <div class="column-right">
+          <p class="spark-label">Open to opportunities</p>
+          <p class="body-ultra">
+            I am currently open to full-time developer positions, engineering internships, and collaborative software projects. If you have an opportunity or simply want to connect, reach out.
+          </p>
+
+          <div class="contact-actions-stack" data-reveal>
+            <a class="button-pill" href="https://linkedin.com/in/midhun-biju" target="_blank" rel="noreferrer">
+              Connect on LinkedIn
+            </a>
+            <a class="ghost-link" href="https://github.com/midhunbiju102003" target="_blank" rel="noreferrer">
+              GitHub Profile <span class="arrow">↗</span>
+            </a>
+          </div>
+
+          <div class="contact-details-grid" data-stagger>
+            <div class="contact-detail-item">
+              <span class="detail-label">LOCATION</span>
+              <p class="detail-val">Kerala, India</p>
+            </div>
+            <div class="contact-detail-item">
+              <span class="detail-label">STATUS</span>
+              <p class="detail-val"><span class="spark-dot"></span> Available for engineering roles</p>
+            </div>
+            <div class="contact-detail-item">
+              <span class="detail-label">GITHUB</span>
+              <a class="accent-link" href="https://github.com/midhunbiju102003" target="_blank" rel="noreferrer">
+                github.com/midhunbiju102003
+              </a>
+            </div>
+            <div class="contact-detail-item">
+              <span class="detail-label">LINKEDIN</span>
+              <a class="accent-link" href="https://linkedin.com/in/midhun-biju" target="_blank" rel="noreferrer">
+                linkedin.com/in/midhun-biju
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <span class="brand-text">MIDHUN BIJU</span>
+        <span class="footer-copy">© <span id="year"></span> — Constellation on black velvet.</span>
+      </div>
+      <a class="ghost-link back-to-top" href="#home">Back to top <span class="arrow">↑</span></a>
+    </div>
+  </footer>
+</body>
+</html>
